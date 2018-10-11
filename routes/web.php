@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('/send/email', 'HomeController@mail');
+
 Route::get('/', function () {
     return view('welcome');
 });
